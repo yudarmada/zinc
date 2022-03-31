@@ -1,3 +1,5 @@
 icon: https://apps.okteto.com/movies/icon.png
 deploy:
   - kubectl apply -f okteto-stack.yml
+devs:
+  - okteto.yml
