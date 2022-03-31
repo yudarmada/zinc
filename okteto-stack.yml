@@ -8,8 +8,8 @@ spec:
     app: zinc
   ports:
   - name: http
-    port: 4080
-    targetPort: 4080
+    port: 80
+    targetPort: 80
 
 ---
 
