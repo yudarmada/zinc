@@ -7,8 +7,8 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - name: zinc
-    port: 80
+  - name: http
+    port: 4080
   selector:
     app: zinc  
 
