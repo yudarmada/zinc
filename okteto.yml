@@ -1,0 +1,4 @@
+name: frontend
+image: public.ecr.aws/prabhat/zinc:latest
+forward:
+  - 4080:80  
