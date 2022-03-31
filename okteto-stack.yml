@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: z
 spec:
-  clusterIP: None
+  type: LoadBalancer  
   selector:
     app: zinc
   ports:
